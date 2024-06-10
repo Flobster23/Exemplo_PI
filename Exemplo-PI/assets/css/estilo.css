@@ -1,6 +1,5 @@
 /* formaçoes gerais*/
 *{
-
     margin: 0;
     padding: 0;
 }
@@ -8,12 +7,12 @@
 body{
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e6e6e6;
+    background-color: rgb(145, 150, 155);
 }
 
 /* formataçoes gerais do layout*/
 #area_cabecalho{
-    background-color: #f7b600;
+    background-color: #1c4c68;
     padding: 15px;
     text-align: center;
 }
@@ -53,13 +52,13 @@ body{
 .postagem_lateral{
     font-size: 12px;
     padding: 5px;
-    border-bottom: 5px dotted #f7b600;
+    border-bottom: 5px dotted #1c4c68;
 }
 
 #rodape{
     text-align: center;
     padding: 15px;
-    background-color: #ccc;
+    background-color: #1c4c68;
     clear: both;
 }
 
@@ -70,7 +69,7 @@ a{
 }
 
 a:visited{
-    color: #f7b600;
+    color: #1c4c68;
 }
 
 #area_cabecalho a:visited{
@@ -79,24 +78,24 @@ a:visited{
 }
 
 #area_cabecalho a:hover{
-    color:#f7b600;
-    background-color: #fff;
+    color:#d1cac5;
+    background-color: #3e7ca0;
 }
 
 /* estilos gerais */
 
 h1{
-    color: #4e4e4e;
+    color: #292828;
     font-size: 150px;
 }
 
 h2{
-    color: #f7b600;
+    color: #1c4c68;
     font-size: 35px;
 }
 
 h3{
-    color: #565656;
+    color:#292828;
     background-color: #ccc;
     padding: 15px;
 }
